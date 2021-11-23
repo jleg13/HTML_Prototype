@@ -1,0 +1,38 @@
+body {
+  font-family: "Bitter", "serif";
+}
+
+fieldset {
+  margin-top: 50px;
+}
+
+legend {
+  font-size: 1em;
+  box-sizing: border-box;
+  color: inherit;
+  display: table;
+  max-width: 100%;
+  padding: 5px;
+  white-space: normal;
+  background: rgba(4, 0, 0, 0.31);
+  border-radius: 20px;
+  margin-right: 0;
+  margin-left: 0;
+}
+
+section {
+  width: 100%;
+  margin: 2rem;
+}
+
+.hidden {
+  display: none;
+}
+
+.visible {
+  display: block;
+}
+
+.invisible {
+  visibility: hidden;
+}

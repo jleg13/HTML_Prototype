@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
+    />
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=" />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Bitter:400,700"
+    />
+    <link rel="stylesheet" href="css/fonts/shockwave.css" />
+    <link rel="stylesheet" href="css/fonts/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/fonts/ionicons.min.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>DropBearTable</title>
+  </head>
+  <body>
+    <header class="header-dark">
+      <nav class="navbar navbar-dark navbar-expand-lg navigation-clean-search">
+        <div class="container">
+          <a class="navbar-brand" href="index.html"
+            ><img
+              class="d-inline-block align-top"
+              src="img/drop.png"
+              alt='""'
+              width="45"
+              height="40"
+            />&nbsp; DropBearTable&nbsp;</a
+          ><button
+            data-bs-toggle="collapse"
+            class="navbar-toggler"
+            data-bs-target="#navcol-1"
+          >
+            <span class="visually-hidden">Toggle navigation</span
+            ><span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navcol-1">
+            <ul id="myreservations-link" class="navbar-nav"></ul>
+            <form id="nav-search" class="me-auto" target="_self">
+              <div class="d-flex align-items-center">
+                <label class="form-label d-flex mb-0" for="search-field"
+                  ><i class="fa fa-search"></i></label
+                ><input
+                  class="form-control search-field"
+                  type="search"
+                  id="search-field"
+                  name="search"
+                />
+              </div>
+            </form>
+
+            <div class="register-buttons hidden">
+              <p class="navbar-text"><span id="usr-welcome"></span></p>
+              <button
+                type="button"
+                class="btn btn-light action-button"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal"
+              >
+                Log Out
+              </button>
+            </div>
+            <div class="register-buttons">
+              <span class="navbar-text"
+                ><a class="login" href="login.html">Log In</a></span
+              ><a
+                class="btn btn-light action-button"
+                role="button"
+                href="signup.html"
+                >Sign Up</a
+              >
+            </div>
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h4>Logout <i class="fa fa-lock"></i></h4>
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div class="modal-body">
+                    <i class="fa fa-question-circle"></i> Are you sure you want
+                    to log-off?
+                  </div>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-secondary"
+                      data-bs-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                    <button type="button" id="logout" class="btn btn-primary">
+                      Log Out
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </nav>
+      <div class="container hero">
+        <div class="row">
+          <div class="col-md-8 offset-md-2">
+            <h1 class="text-center">The Dining Revolution is Here.</h1>
+          </div>
+        </div>
+      </div>
+      <div class="search-container">
+        <form id="search-form">
+          <fieldset>
+            <legend id="form-title">Find a restaurant</legend>
+          </fieldset>
+          <div class="inner-form">
+            <div class="input-field first-wrap">
+              <div class="icon-wrap"><i class="fa fa-search"></i></div>
+              <input
+                class="form-control form-in"
+                type="text"
+                id="search"
+                placeholder="Restaurant, Location or Cuisine"
+              />
+            </div>
+            <div class="input-field second-wrap">
+              <div class="icon-wrap">
+                <i class="fa fa-calendar-check-o"></i>
+              </div>
+              <input id="datepicker" class="form-control form-in" type="date" />
+            </div>
+            <div class="input-field third-wrap">
+              <div class="icon-wrap"><i class="fa fa-clock-o"></i></div>
+              <input
+                id="timepicker"
+                class="form-control form-in"
+                type="time"
+                min="09:00"
+                max="18:00"
+                required
+              />
+            </div>
+            <div class="input-field fourth-wrap">
+              <div class="icon-wrap"><i class="fa fa-user"></i></div>
+              <select id="numpeople" class="form-select form-in">
+                <optgroup label="Number of People">
+                  <option value="1" selected="">1 person</option>
+                  <option value="2">2 people</option>
+                  <option value="3">3 people</option>
+                  <option value="4">4 people</option>
+                  <option value="5">5 people</option>
+                  <option value="6">6 people</option>
+                </optgroup>
+              </select>
+            </div>
+            <div class="input-field fifth-wrap">
+              <button
+                id="submit-btn"
+                class="btn btn-primary btn-search"
+                type="submit"
+              >
+                Search
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </header>
+    <footer class="footer-dark">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6 col-md-3 item">
+            <h3>Discover</h3>
+            <ul class="info-sections">
+              <li><a href="#">Restaurants near me</a></li>
+              <li><a href="restaurants.html">All restaurants</a></li>
+              <li><a href="#">Cuisines near me</a></li>
+              <li><a href="#">All cuisines</a></li>
+              <li><a href="#">Pick for me!</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-6 col-md-3 item">
+            <h3>About</h3>
+            <ul class="info-sections">
+              <li><a href="#">Company</a></li>
+              <li><a href="#">Team</a></li>
+              <li><a href="#">Careers</a></li>
+            </ul>
+          </div>
+          <div class="col-md-6 item text">
+            <h3>DropBearTable</h3>
+            <p>
+              At DropBearTable we believe food brings people together. Our
+              mission is to make restaurant booking as simple as it can be to
+              get you out enjoying food with the people you love. Feel like a
+              night in? Why not check out our delivery app.
+            </p>
+          </div>
+          <div class="col item social">
+            <a href="#"><i class="icon ion-social-facebook"></i></a
+            ><a href="#"><i class="icon ion-social-twitter"></i></a
+            ><a href="#"><i class="icon ion-social-snapchat"></i></a
+            ><a href="#"><i class="icon ion-social-instagram"></i></a>
+          </div>
+        </div>
+        <p class="copyright">DropBearTable © 2021</p>
+      </div>
+    </footer>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+
+    <!-- Your custom JS -->
+    <script src="js/data.js"></script>
+    <script src="js/userWelcome.js"></script>
+    <script src="js/onLoad.js"></script>
+    <script src="js/formatDate.js"></script>
+    <script src="js/nav.js"></script>
+    <script src="js/searchForm.js"></script>
+  </body>
+</html>

@@ -1,0 +1,122 @@
+section.restaurant-list {
+  color: #313437;
+  padding: 0;
+  margin: 3em 0;
+}
+
+.container {
+  display: block;
+  align-items: center;
+}
+
+.restaurant-list .section-title {
+  font-size: 3em;
+  box-sizing: border-box;
+  color: #fff;
+  display: table;
+  max-width: 100%;
+  padding: 5px;
+  white-space: normal;
+  background: rgba(4, 0, 0, 0.31);
+  border-radius: 20px;
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.restaurant-list p {
+  color: #7d8285;
+}
+
+.restaurant-list p.nonavail {
+  font-size: 2em;
+  color: #fff;
+  padding-bottom: 15rem;
+}
+
+.restaurant-list h2,
+.restaurant-list h3 {
+  font-weight: bold;
+  margin-bottom: 40px;
+  padding-top: 40px;
+  color: inherit;
+}
+
+.shift-left {
+  padding-left: 8em;
+}
+
+.restaurant-list .places {
+  padding-top: 50px 0;
+}
+
+.restaurant-list .item {
+  text-align: center;
+}
+
+.restaurant-list .item .box {
+  text-align: center;
+  padding: 30px;
+  background-color: #1e2833;
+  margin-bottom: 30px;
+}
+
+.restaurant-list .item .name {
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #fff;
+}
+
+.restaurant-list .item .date {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #2980ef;
+  letter-spacing: 2px;
+  font-size: 13px;
+}
+
+.restaurant-list .item .guests,
+.restaurant-list .item .mobile,
+.restaurant-list .item .requests {
+  font-size: 15px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.restaurant-list .reserve {
+  font-size: 18px;
+  color: #a2a8ae;
+}
+
+.restaurant-list .update {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 5em;
+}
+
+.restaurant-list .stats img {
+  padding-top: 2em;
+}
+
+.restaurant-list a {
+  align-content: space-around;
+  width: 100px;
+  height: 100px;
+}
+
+.restaurant-list .fa-trash,
+.restaurant-list .stats img {
+  padding-top: 2em;
+}
+
+.restaurant-list .fa-trash:hover,
+.restaurant-list .fa-edit:hover {
+  color: #2980ef;
+  cursor: pointer;
+}
+
+@media (max-width: 767px) {
+  .restaurant-list h2 {
+    margin-bottom: 25px;
+    font-size: 24px;
+  }
+}

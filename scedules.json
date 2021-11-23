@@ -1,0 +1,869 @@
+[
+  {
+    "restaurantId": "cdc1234",
+    "schedule": [
+      {
+        "day": 0,
+        "times": [
+          {
+            "interval": 7,
+            "time": "14:30",
+            "tables": [
+              { "userId": "tempuid", "reservationId": "1234" },
+              { "userId": "tempuid", "reservationId": "1234" },
+              { "userId": "tempuid", "reservationId": "1234" }
+            ]
+          },
+          {
+            "interval": 12,
+            "time": "17:00",
+            "tables": [
+              { "userId": "tempuid", "reservationId": "1234" },
+              { "userId": "tempuid", "reservationId": "1234" }
+            ]
+          },
+          {
+            "interval": 13,
+            "time": "17:30",
+            "tables": [
+              { "userId": "tempuid", "reservationId": "1234" },
+              { "userId": "tempuid", "reservationId": "1234" },
+              { "userId": "tempuid", "reservationId": "1234" }
+            ]
+          },
+          {
+            "interval": 14,
+            "time": "18:00",
+            "tables": [{ "userId": "tempuid", "reservationId": "1234" }]
+          },
+          {
+            "interval": 15,
+            "time": "18:30",
+            "tables": [
+              { "userId": "tempuid", "reservationId": "1234" },
+              { "userId": "tempuid", "reservationId": "1234" },
+              { "userId": "tempuid", "reservationId": "1234" }
+            ]
+          },
+          {
+            "interval": 16,
+            "time": "19:00",
+            "tables": [{ "userId": "tempuid", "reservationId": "1234" }]
+          },
+          {
+            "interval": 20,
+            "time": "21:00",
+            "tables": [
+              { "userId": "tempuid", "reservationId": "1234" },
+              { "userId": "tempuid", "reservationId": "1234" },
+              { "userId": "tempuid", "reservationId": "1234" }
+            ]
+          },
+          {
+            "interval": 21,
+            "time": "21:30",
+            "tables": [
+              { "userId": "tempuid", "reservationId": "1234" },
+              { "userId": "tempuid", "reservationId": "1234" }
+            ]
+          }
+        ]
+      },
+      {
+        "day": 1,
+        "times": [
+          {
+            "interval": 0,
+            "time": "11:00",
+            "tables": [{ "userId": "tempuid", "reservationId": "1234" }]
+          },
+          {
+            "interval": 2,
+            "time": "12:00",
+            "tables": [
+              { "userId": "tempuid", "reservationId": "1234" },
+              { "userId": "tempuid", "reservationId": "1234" }
+            ]
+          },
+          {
+            "interval": 13,
+            "time": "17:30",
+            "tables": [
+              { "userId": "tempuid", "reservationId": "1234" },
+              { "userId": "tempuid", "reservationId": "1234" },
+              { "userId": "tempuid", "reservationId": "1234" }
+            ]
+          },
+          {
+            "interval": 14,
+            "time": "18:00",
+            "tables": [
+              { "userId": "tempuid", "reservationId": "1234" },
+              { "userId": "tempuid", "reservationId": "1234" },
+              { "userId": "tempuid", "reservationId": "1234" }
+            ]
+          },
+          {
+            "interval": 15,
+            "time": "18:30",
+            "tables": [
+              { "userId": "tempuid", "reservationId": "1234" },
+              { "userId": "tempuid", "reservationId": "1234" },
+              { "userId": "tempuid", "reservationId": "1234" }
+            ]
+          },
+          {
+            "interval": 19,
+            "time": "19:00",
+            "tables": [{ "userId": "tempuid", "reservationId": "1234" }]
+          },
+          {
+            "interval": 20,
+            "time": "21:00",
+            "tables": [{ "userId": "tempuid", "reservationId": "1234" }]
+          },
+          {
+            "interval": 21,
+            "time": "21:30",
+            "tables": [
+              { "userId": "tempuid", "reservationId": "1234" },
+              { "userId": "tempuid", "reservationId": "1234" }
+            ]
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "times": [
+          {
+            "interval": 3,
+            "time": "12:30",
+            "tables": [
+              { "userId": "tempuid", "reservationId": "1234" },
+              { "userId": "tempuid", "reservationId": "1234" },
+              { "userId": "tempuid", "reservationId": "1234" }
+            ]
+          },
+          {
+            "interval": 4,
+            "time": "13:00",
+            "tables": [
+              { "userId": "tempuid", "reservationId": "1234" },
+              { "userId": "tempuid", "reservationId": "1234" }
+            ]
+          },
+          {
+            "interval": 5,
+            "time": "13:30",
+            "tables": [
+              { "userId": "tempuid", "reservationId": "1234" },
+              { "userId": "tempuid", "reservationId": "1234" },
+              { "userId": "tempuid", "reservationId": "1234" }
+            ]
+          },
+          {
+            "interval": 14,
+            "time": "18:00",
+            "tables": [
+              { "userId": "tempuid", "reservationId": "1234" },
+              { "userId": "tempuid", "reservationId": "1234" },
+              { "userId": "tempuid", "reservationId": "1234" }
+            ]
+          },
+          {
+            "interval": 15,
+            "time": "18:30",
+            "tables": [
+              { "userId": "tempuid", "reservationId": "1234" },
+              { "userId": "tempuid", "reservationId": "1234" },
+              { "userId": "tempuid", "reservationId": "1234" }
+            ]
+          },
+          {
+            "interval": 16,
+            "time": "19:00",
+            "tables": [{ "userId": "tempuid", "reservationId": "1234" }]
+          },
+          {
+            "interval": 20,
+            "time": "21:00",
+            "tables": [
+              { "userId": "tempuid", "reservationId": "1234" },
+              { "userId": "tempuid", "reservationId": "1234" },
+              { "userId": "tempuid", "reservationId": "1234" }
+            ]
+          },
+          {
+            "interval": 21,
+            "time": "21:30",
+            "tables": [
+              { "userId": "tempuid", "reservationId": "1234" },
+              { "userId": "tempuid", "reservationId": "1234" }
+            ]
+          }
+        ]
+      },
+      {
+        "day": 4,
+        "times": [
+          {
+            "interval": 7,
+            "time": "14:30",
+            "tables": [{ "userId": "tempuid", "reservationId": "1234" }]
+          },
+          {
+            "interval": 12,
+            "time": "17:00",
+            "tables": [{ "userId": "tempuid", "reservationId": "1234" }]
+          },
+          {
+            "interval": 15,
+            "time": "18:30",
+            "tables": [
+              { "userId": "tempuid", "reservationId": "1234" },
+              { "userId": "tempuid", "reservationId": "1234" },
+              { "userId": "tempuid", "reservationId": "1234" }
+            ]
+          },
+          {
+            "interval": 16,
+            "time": "19:00",
+            "tables": [{ "userId": "tempuid", "reservationId": "1234" }]
+          },
+          {
+            "interval": 17,
+            "time": "19:30",
+            "tables": [
+              { "userId": "tempuid", "reservationId": "1234" },
+              { "userId": "tempuid", "reservationId": "1234" },
+              { "userId": "tempuid", "reservationId": "1234" }
+            ]
+          },
+          {
+            "interval": 18,
+            "time": "20:00",
+            "tables": [
+              { "userId": "tempuid", "reservationId": "1234" },
+              { "userId": "tempuid", "reservationId": "1234" },
+              { "userId": "tempuid", "reservationId": "1234" }
+            ]
+          },
+          {
+            "interval": 20,
+            "time": "21:00",
+            "tables": [
+              { "userId": "tempuid", "reservationId": "1234" },
+              { "userId": "tempuid", "reservationId": "1234" },
+              { "userId": "tempuid", "reservationId": "1234" }
+            ]
+          },
+          {
+            "interval": 21,
+            "time": "21:30",
+            "tables": [
+              { "userId": "tempuid", "reservationId": "1234" },
+              { "userId": "tempuid", "reservationId": "1234" }
+            ]
+          }
+        ]
+      },
+      {
+        "day": 7,
+        "times": [
+          {
+            "interval": 15,
+            "time": "18:30",
+            "tables": [
+              { "userId": "tempuid", "reservationId": "1234" },
+              { "userId": "tempuid", "reservationId": "1234" },
+              { "userId": "tempuid", "reservationId": "1234" }
+            ]
+          },
+          {
+            "interval": 16,
+            "time": "19:00",
+            "tables": [{ "userId": "tempuid", "reservationId": "1234" }]
+          },
+          {
+            "interval": 20,
+            "time": "21:00",
+            "tables": [
+              { "userId": "tempuid", "reservationId": "1234" },
+              { "userId": "tempuid", "reservationId": "1234" },
+              { "userId": "tempuid", "reservationId": "1234" }
+            ]
+          },
+          {
+            "interval": 21,
+            "time": "21:30",
+            "tables": [
+              { "userId": "tempuid", "reservationId": "1234" },
+              { "userId": "tempuid", "reservationId": "1234" }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "restaurantId": "siri1234",
+    "schedule": [
+      {
+        "day": 0,
+        "times": [
+          {
+            "interval": 26,
+            "time": "17:30",
+            "tables": [
+              { "userId": "tempuid", "reservationId": "1234" },
+              { "userId": "tempuid", "reservationId": "1234" },
+              { "userId": "tempuid", "reservationId": "1234" }
+            ]
+          },
+          {
+            "interval": 27,
+            "time": "17:45",
+            "tables": [{ "userId": "tempuid", "reservationId": "1234" }]
+          },
+          {
+            "interval": 28,
+            "time": "18:00",
+            "tables": [
+              { "userId": "tempuid", "reservationId": "1234" },
+              { "userId": "tempuid", "reservationId": "1234" },
+              { "userId": "tempuid", "reservationId": "1234" }
+            ]
+          },
+          {
+            "interval": 36,
+            "time": "20:00",
+            "tables": [{ "userId": "tempuid", "reservationId": "1234" }]
+          },
+          {
+            "interval": 37,
+            "time": "20:15",
+            "tables": [{ "userId": "tempuid", "reservationId": "1234" }]
+          }
+        ]
+      },
+      {
+        "day": 2,
+        "times": [
+          {
+            "interval": 26,
+            "time": "17:30",
+            "tables": [
+              { "userId": "tempuid", "reservationId": "1234" },
+              { "userId": "tempuid", "reservationId": "1234" },
+              { "userId": "tempuid", "reservationId": "1234" }
+            ]
+          },
+          {
+            "interval": 28,
+            "time": "18:00",
+            "tables": [
+              { "userId": "tempuid", "reservationId": "1234" },
+              { "userId": "tempuid", "reservationId": "1234" },
+              { "userId": "tempuid", "reservationId": "1234" }
+            ]
+          },
+          {
+            "interval": 30,
+            "time": "18:30",
+            "tables": [
+              { "userId": "tempuid", "reservationId": "1234" },
+              { "userId": "tempuid", "reservationId": "1234" },
+              { "userId": "tempuid", "reservationId": "1234" }
+            ]
+          },
+          {
+            "interval": 36,
+            "time": "20:00",
+            "tables": [
+              { "userId": "tempuid", "reservationId": "1234" },
+              { "userId": "tempuid", "reservationId": "1234" },
+              { "userId": "tempuid", "reservationId": "1234" }
+            ]
+          },
+          {
+            "interval": 38,
+            "time": "20:30",
+            "tables": [
+              { "userId": "tempuid", "reservationId": "1234" },
+              { "userId": "tempuid", "reservationId": "1234" },
+              { "userId": "tempuid", "reservationId": "1234" }
+            ]
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "times": [
+          {
+            "interval": 38,
+            "time": "20:30",
+            "tables": [
+              { "userId": "tempuid", "reservationId": "1234" },
+              { "userId": "tempuid", "reservationId": "1234" },
+              { "userId": "tempuid", "reservationId": "1234" }
+            ]
+          },
+          {
+            "interval": 39,
+            "time": "20:45",
+            "tables": [{ "userId": "tempuid", "reservationId": "1234" }]
+          },
+          {
+            "interval": 41,
+            "time": "21:15",
+            "tables": [
+              { "userId": "tempuid", "reservationId": "1234" },
+              { "userId": "tempuid", "reservationId": "1234" }
+            ]
+          },
+          {
+            "interval": 42,
+            "time": "21:30",
+            "tables": [
+              { "userId": "tempuid", "reservationId": "1234" },
+              { "userId": "tempuid", "reservationId": "1234" },
+              { "userId": "tempuid", "reservationId": "1234" }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "restaurantId": "bbi1234",
+    "schedule": [
+      {
+        "day": 0,
+        "times": [
+          {
+            "interval": 7,
+            "time": "20:30",
+            "tables": [
+              { "userId": "tempuid", "reservationId": "1234" },
+              { "userId": "tempuid", "reservationId": "1234" },
+              { "userId": "tempuid", "reservationId": "1234" }
+            ]
+          },
+          {
+            "interval": 8,
+            "time": "21:00",
+            "tables": [
+              { "userId": "tempuid", "reservationId": "1234" },
+              { "userId": "tempuid", "reservationId": "1234" }
+            ]
+          },
+          {
+            "interval": 9,
+            "time": "21:30",
+            "tables": [
+              { "userId": "tempuid", "reservationId": "1234" },
+              { "userId": "tempuid", "reservationId": "1234" },
+              { "userId": "tempuid", "reservationId": "1234" }
+            ]
+          }
+        ]
+      },
+      {
+        "day": 1,
+        "times": [
+          {
+            "interval": 0,
+            "time": "17:00",
+            "tables": [
+              { "userId": "tempuid", "reservationId": "1234" },
+              { "userId": "tempuid", "reservationId": "1234" },
+              { "userId": "tempuid", "reservationId": "1234" }
+            ]
+          },
+          {
+            "interval": 1,
+            "time": "17:30",
+            "tables": [{ "userId": "tempuid", "reservationId": "1234" }]
+          },
+          {
+            "interval": 2,
+            "time": "18:00",
+            "tables": [
+              { "userId": "tempuid", "reservationId": "1234" },
+              { "userId": "tempuid", "reservationId": "1234" }
+            ]
+          },
+          {
+            "interval": 3,
+            "time": "18:30",
+            "tables": [
+              { "userId": "tempuid", "reservationId": "1234" },
+              { "userId": "tempuid", "reservationId": "1234" },
+              { "userId": "tempuid", "reservationId": "1234" }
+            ]
+          }
+        ]
+      },
+      {
+        "day": 5,
+        "times": [
+          {
+            "interval": 1,
+            "time": "17:30",
+            "tables": [
+              { "userId": "tempuid", "reservationId": "1234" },
+              { "userId": "tempuid", "reservationId": "1234" },
+              { "userId": "tempuid", "reservationId": "1234" }
+            ]
+          },
+          {
+            "interval": 4,
+            "time": "19:00",
+            "tables": [{ "userId": "tempuid", "reservationId": "1234" }]
+          },
+          {
+            "interval": 5,
+            "time": "19:30",
+            "tables": [
+              { "userId": "tempuid", "reservationId": "1234" },
+              { "userId": "tempuid", "reservationId": "1234" }
+            ]
+          },
+          {
+            "interval": 9,
+            "time": "21:30",
+            "tables": [
+              { "userId": "tempuid", "reservationId": "1234" },
+              { "userId": "tempuid", "reservationId": "1234" },
+              { "userId": "tempuid", "reservationId": "1234" }
+            ]
+          }
+        ]
+      },
+      {
+        "day": 7,
+        "times": [
+          {
+            "interval": 3,
+            "time": "18:30",
+            "tables": [
+              { "userId": "tempuid", "reservationId": "1234" },
+              { "userId": "tempuid", "reservationId": "1234" },
+              { "userId": "tempuid", "reservationId": "1234" },
+              { "userId": "tempuid", "reservationId": "1234" }
+            ]
+          },
+          {
+            "interval": 5,
+            "time": "19:30",
+            "tables": [
+              { "userId": "tempuid", "reservationId": "1234" },
+              { "userId": "tempuid", "reservationId": "1234" },
+              { "userId": "tempuid", "reservationId": "1234" },
+              { "userId": "tempuid", "reservationId": "1234" }
+            ]
+          },
+          {
+            "interval": 6,
+            "time": "20:00",
+            "tables": [
+              { "userId": "tempuid", "reservationId": "1234" },
+              { "userId": "tempuid", "reservationId": "1234" }
+            ]
+          },
+          {
+            "interval": 12,
+            "time": "23:00",
+            "tables": [{ "userId": "tempuid", "reservationId": "1234" }]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "restaurantId": "nwf1234",
+    "schedule": [
+      {
+        "day": 0,
+        "times": [
+          {
+            "interval": 4,
+            "time": "20:00",
+            "tables": [
+              { "userId": "tempuid", "reservationId": "1234" },
+              { "userId": "tempuid", "reservationId": "1234" }
+            ]
+          },
+          {
+            "interval": 5,
+            "time": "20:30",
+            "tables": [
+              { "userId": "tempuid", "reservationId": "1234" },
+              { "userId": "tempuid", "reservationId": "1234" }
+            ]
+          },
+          {
+            "interval": 6,
+            "time": "21:00",
+            "tables": [
+              { "userId": "tempuid", "reservationId": "1234" },
+              { "userId": "tempuid", "reservationId": "1234" }
+            ]
+          },
+          {
+            "interval": 7,
+            "time": "21:30",
+            "tables": [{ "userId": "tempuid", "reservationId": "1234" }]
+          },
+          {
+            "interval": 8,
+            "time": "22:00",
+            "tables": [
+              { "userId": "tempuid", "reservationId": "1234" },
+              { "userId": "tempuid", "reservationId": "1234" }
+            ]
+          },
+          {
+            "interval": 9,
+            "time": "22:30",
+            "tables": [
+              { "userId": "tempuid", "reservationId": "1234" },
+              { "userId": "tempuid", "reservationId": "1234" }
+            ]
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "times": [
+          {
+            "interval": 4,
+            "time": "20:00",
+            "tables": [
+              { "userId": "tempuid", "reservationId": "1234" },
+              { "userId": "tempuid", "reservationId": "1234" }
+            ]
+          },
+          {
+            "interval": 5,
+            "time": "20:30",
+            "tables": [
+              { "userId": "tempuid", "reservationId": "1234" },
+              { "userId": "tempuid", "reservationId": "1234" }
+            ]
+          },
+          {
+            "interval": 6,
+            "time": "21:00",
+            "tables": [
+              { "userId": "tempuid", "reservationId": "1234" },
+              { "userId": "tempuid", "reservationId": "1234" }
+            ]
+          },
+          {
+            "interval": 7,
+            "time": "21:30",
+            "tables": [{ "userId": "tempuid", "reservationId": "1234" }]
+          },
+          {
+            "interval": 8,
+            "time": "22:00",
+            "tables": [
+              { "userId": "tempuid", "reservationId": "1234" },
+              { "userId": "tempuid", "reservationId": "1234" }
+            ]
+          },
+          {
+            "interval": 9,
+            "time": "22:30",
+            "tables": [
+              { "userId": "tempuid", "reservationId": "1234" },
+              { "userId": "tempuid", "reservationId": "1234" }
+            ]
+          },
+          {
+            "interval": 9,
+            "time": "23:00",
+            "tables": [
+              { "userId": "tempuid", "reservationId": "1234" },
+              { "userId": "tempuid", "reservationId": "1234" }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "restaurantId": "mf1234",
+    "schedule": [
+      {
+        "day": 2,
+        "times": [
+          {
+            "interval": 0,
+            "time": "08:00",
+            "tables": [
+              { "userId": "tempuid", "reservationId": "1234" },
+              { "userId": "tempuid", "reservationId": "1234" }
+            ]
+          },
+          {
+            "interval": 21,
+            "time": "18:30",
+            "tables": [
+              { "userId": "tempuid", "reservationId": "1234" },
+              { "userId": "tempuid", "reservationId": "1234" },
+              { "userId": "tempuid", "reservationId": "1234" },
+              { "userId": "tempuid", "reservationId": "1234" }
+            ]
+          },
+          {
+            "interval": 22,
+            "time": "19:00",
+            "tables": [
+              { "userId": "tempuid", "reservationId": "1234" },
+              { "userId": "tempuid", "reservationId": "1234" },
+              { "userId": "tempuid", "reservationId": "1234" },
+              { "userId": "tempuid", "reservationId": "1234" }
+            ]
+          },
+          {
+            "interval": 23,
+            "time": "19:30",
+            "tables": [
+              { "userId": "tempuid", "reservationId": "1234" },
+              { "userId": "tempuid", "reservationId": "1234" },
+              { "userId": "tempuid", "reservationId": "1234" }
+            ]
+          },
+          {
+            "interval": 24,
+            "time": "20:00",
+            "tables": [
+              { "userId": "tempuid", "reservationId": "1234" },
+              { "userId": "tempuid", "reservationId": "1234" }
+            ]
+          }
+        ]
+      },
+      {
+        "day": 3,
+        "times": [
+          {
+            "interval": 1,
+            "time": "08:30",
+            "tables": [
+              { "userId": "tempuid", "reservationId": "1234" },
+              { "userId": "tempuid", "reservationId": "1234" }
+            ]
+          },
+          {
+            "interval": 2,
+            "time": "09:00",
+            "tables": [
+              { "userId": "tempuid", "reservationId": "1234" },
+              { "userId": "tempuid", "reservationId": "1234" }
+            ]
+          },
+          {
+            "interval": 19,
+            "time": "17:30",
+            "tables": [
+              { "userId": "tempuid", "reservationId": "1234" },
+              { "userId": "tempuid", "reservationId": "1234" },
+              { "userId": "tempuid", "reservationId": "1234" },
+              { "userId": "tempuid", "reservationId": "1234" }
+            ]
+          },
+          {
+            "interval": 20,
+            "time": "18:00",
+            "tables": [
+              { "userId": "tempuid", "reservationId": "1234" },
+              { "userId": "tempuid", "reservationId": "1234" },
+              { "userId": "tempuid", "reservationId": "1234" }
+            ]
+          },
+          {
+            "interval": 22,
+            "time": "19:00",
+            "tables": [
+              { "userId": "tempuid", "reservationId": "1234" },
+              { "userId": "tempuid", "reservationId": "1234" }
+            ]
+          },
+          {
+            "interval": 23,
+            "time": "19:30",
+            "tables": [
+              { "userId": "tempuid", "reservationId": "1234" },
+              { "userId": "tempuid", "reservationId": "1234" }
+            ]
+          },
+          {
+            "interval": 24,
+            "time": "20:00",
+            "tables": [
+              { "userId": "tempuid", "reservationId": "1234" },
+              { "userId": "tempuid", "reservationId": "1234" },
+              { "userId": "tempuid", "reservationId": "1234" },
+              { "userId": "tempuid", "reservationId": "1234" }
+            ]
+          }
+        ]
+      },
+      {
+        "day": 7,
+        "times": [
+          {
+            "interval": 0,
+            "time": "08:00",
+            "tables": [
+              { "userId": "tempuid", "reservationId": "1234" },
+              { "userId": "tempuid", "reservationId": "1234" }
+            ]
+          },
+          {
+            "interval": 19,
+            "time": "17:30",
+            "tables": [
+              { "userId": "tempuid", "reservationId": "1234" },
+              { "userId": "tempuid", "reservationId": "1234" },
+              { "userId": "tempuid", "reservationId": "1234" },
+              { "userId": "tempuid", "reservationId": "1234" }
+            ]
+          },
+          {
+            "interval": 20,
+            "time": "18:00",
+            "tables": [
+              { "userId": "tempuid", "reservationId": "1234" },
+              { "userId": "tempuid", "reservationId": "1234" },
+              { "userId": "tempuid", "reservationId": "1234" },
+              { "userId": "tempuid", "reservationId": "1234" }
+            ]
+          },
+          {
+            "interval": 23,
+            "time": "19:30",
+            "tables": [
+              { "userId": "tempuid", "reservationId": "1234" },
+              { "userId": "tempuid", "reservationId": "1234" },
+              { "userId": "tempuid", "reservationId": "1234" }
+            ]
+          },
+          {
+            "interval": 24,
+            "time": "20:00",
+            "tables": [
+              { "userId": "tempuid", "reservationId": "1234" },
+              { "userId": "tempuid", "reservationId": "1234" },
+              { "userId": "tempuid", "reservationId": "1234" },
+              { "userId": "tempuid", "reservationId": "1234" }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

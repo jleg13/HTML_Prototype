@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Chinese Dragon",
+    "cuisine": "chinese",
+    "openTime": "11:00",
+    "closeTime": "22:00",
+    "seatingInterval": 30,
+    "tableCapacityPerInterval": 3,
+    "info": "Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, et interdum justo suscipit id. Etiam dictum feugiat tellus, a semper massa.",
+    "image": "https://dropbeartable.s3.ap-southeast-2.amazonaws.com/chinese.jpg"
+  },
+  {
+    "name": "Spice Is Right",
+    "cuisine": "indian",
+    "openTime": "11:00",
+    "closeTime": "22:00",
+    "seatingInterval": 15,
+    "tableCapacityPerInterval": 3,
+    "info": "Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, et interdum justo suscipit id. Etiam dictum feugiat tellus, a semper massa.",
+    "image": "https://dropbeartable.s3.ap-southeast-2.amazonaws.com/indian.jpg"
+  },
+  {
+    "name": "Bella Bella",
+    "cuisine": "italian",
+    "openTime": "17:00",
+    "closeTime": "23:00",
+    "seatingInterval": 30,
+    "tableCapacityPerInterval": 4,
+    "info": "Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, et interdum justo suscipit id. Etiam dictum feugiat tellus, a semper massa.",
+    "image": "https://dropbeartable.s3.ap-southeast-2.amazonaws.com/italian.jpg"
+  },
+  {
+    "name": "Next Wave",
+    "cuisine": "fusion",
+    "openTime": "18:00",
+    "closeTime": "23:00",
+    "seatingInterval": 30,
+    "tableCapacityPerInterval": 2,
+    "info": "Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, et interdum justo suscipit id. Etiam dictum feugiat tellus, a semper massa.",
+    "image": "https://dropbeartable.s3.ap-southeast-2.amazonaws.com/fusion.jpg"
+  },
+  {
+    "name": "Marcell's",
+    "cuisine": "french",
+    "openTime": "08:00",
+    "closeTime": "20:00",
+    "seatingInterval": 30,
+    "tableCapacityPerInterval": 4,
+    "info": "Aenean tortor est, vulputate quis leo in, vehicula rhoncus lacus. Praesent aliquam in tellus eu gravida. Aliquam varius finibus est, et interdum justo suscipit id. Etiam dictum feugiat tellus, a semper massa.",
+    "image": "https://dropbeartable.s3.ap-southeast-2.amazonaws.com/french.jpg"
+  }
+]

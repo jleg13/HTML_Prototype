@@ -1,0 +1,14 @@
+version: '3'
+services:
+  a1_starter:
+    image: python:alpine3.13
+    ports:
+      - "8000:8000"
+    stdin_open: true # docker run -i
+    tty: true        # docker run -t
+    volumes:
+      - ./code:/code
+    environment:
+      - DISPLAY=host.docker.internal:0.0
+    command: >
+      sh -c "cd /code && python -m http.server"

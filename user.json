@@ -1,0 +1,25 @@
+{
+  "userId": "user1234",
+  "email": "user@email.com",
+  "password": "password",
+  "reservations": [
+    {
+      "restaurant": "Chinese Dragon",
+      "date": "2021-07-16",
+      "time": "18:00",
+      "guests": 5,
+      "mobile": "0408378465",
+      "requests": "vegan and egg allergy",
+      "status": "Confirmed"
+    },
+    {
+      "restaurant": "Marcell's",
+      "date": "2021-07-19",
+      "time": "20:00",
+      "guests": 2,
+      "mobile": "0408378465",
+      "requests": "window seat",
+      "status": "Confirmed"
+    }
+  ]
+}
