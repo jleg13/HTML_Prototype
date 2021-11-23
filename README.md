@@ -1,3 +1,7 @@
+Name: Joshua Le Gresley
+
+This project was to produce an HTML prototype design using Bootstrap to layout a restaurant booking application that can be made into a full stack application. Here is the code for the [Express Server](https://github.com/jleg13/MERN_Application) for the developed application, and here is the code for the whole fullstack application with the Vue.js [front-end](https://github.com/jleg13/MEVN_Application).
+
 # How to use the starter code
 
 - Install [Docker](https://www.docker.com/products/docker-desktop) and [Docker Compose](https://docs.docker.com/compose/install/) on your machine.
