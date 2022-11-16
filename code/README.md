@@ -1,16 +1,19 @@
-###  COSC360 Assesment 1: HTML Prototype
-
-Name: Joshua Le Gresley
-
-Email: jlegresl@myune.edu.au
-
-Student ID: 220197638
+#HTML Prototype for FullStack Application
 
 
-# DropBearTable Prototype
 ## Description:
 
-For this project I am implementing the **Store-Front** to the new company DropBearTable. This demo demonstrates the flow and design for the finished App that will be created as a SPA using the MERN stack.
+### DropBearTable Prototype
+
+For this project I am implementing the **Store-Front** to the new company DropBearTable. This demo demonstrates the flow and design for the finished App
+that will be created as a SPA using the MERN stack.
+
+## Built With:
+
+![Bootstrap](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
+
+## Project details:
+
 This demo shows the features that are going to be implemented in the SPA to meet the project criteria, these include
       
   - **Search Bar(including NavBar search)**: Some mock restaurant data has been used to demo the site. I have created basic search functionality by keyword search, currently just matching **cuisine types** for example searching indian or italian or fusion returns the restaurants of that cuisine type. This same keyword search can be accessed in the navbar across pages to give the greatest flexibility for the user.
@@ -35,7 +38,7 @@ To walk through the site demo from the **browsing/searching** for restaurants  p
 - Password: **password**
 
 ## Support:
-Please email jlegresl@une.edu.au if further details are required.
+Please email joshualegresley@gmail.com if further details are required.
 
 ## Contributing:
 For major changes, please open an issue first to discuss what you would like to change.
